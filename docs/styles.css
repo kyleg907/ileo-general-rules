@@ -8,12 +8,23 @@ td.aaron *:first-child::before, table.aaron::before {
     content: '📜(aaron)📜';
 }
 
-td.rule, td:nth-child(odd) {
-    width: 70% !important;
+/*td.rule,*/ td:nth-child(1), th:nth-child(1) {
+    width: 65% !important;
 }
 
-td.why, td:nth-child(even){
+/*td.why,*/ td:nth-child(2), th:nth-child(2){
     width: 30% !important;
+}
+
+/*td.why,*/ td:nth-child(2) {
+    font-size: 80%;
+}
+
+/*td.rule-id,*/ td:nth-child(3), th:nth-child(3) {
+    width: 3% !important;
+}
+
+/*td.rule-id,*/ td:nth-child(3) {
     font-size: 80%;
 }
 
