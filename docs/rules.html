@@ -144,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#eligible-lego-robot-kits-and-parts" id="toc-eligible-lego-robot-kits-and-parts" class="nav-link active" data-scroll-target="#eligible-lego-robot-kits-and-parts"><span class="header-section-number">2.1</span> Eligible LEGO® robot kits and parts</a></li>
   <li><a href="#divisions" id="toc-divisions" class="nav-link" data-scroll-target="#divisions"><span class="header-section-number">2.2</span> Divisions</a></li>
-  <li><a href="#robot-behavior" id="toc-robot-behavior" class="nav-link" data-scroll-target="#robot-behavior"><span class="header-section-number">2.3</span> Robot Behavior</a></li>
+  <li><a href="#robots" id="toc-robots" class="nav-link" data-scroll-target="#robots"><span class="header-section-number">2.3</span> Robots</a></li>
   <li><a href="#arenas-and-project-materials" id="toc-arenas-and-project-materials" class="nav-link" data-scroll-target="#arenas-and-project-materials"><span class="header-section-number">2.4</span> Arenas and Project Materials</a></li>
   <li><a href="#competition-requirements" id="toc-competition-requirements" class="nav-link" data-scroll-target="#competition-requirements"><span class="header-section-number">2.5</span> Competition requirements</a></li>
   <li><a href="#judging" id="toc-judging" class="nav-link" data-scroll-target="#judging"><span class="header-section-number">2.6</span> Judging</a></li>
@@ -178,6 +178,8 @@ ul.task-list li input[type="checkbox"] {
      But the {=html} wrapper defeats markdown syntax highlighting in VSCode.
      Using HTML document and including them is a kludge to make authoring
      easier. -->
+<!-- The general order of these rules should generally follow the flow of the program,
+in-class, working on final projects, getting to the competition, competing -->
 <section id="eligible-lego-robot-kits-and-parts" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="eligible-lego-robot-kits-and-parts"><span class="header-section-number">2.1</span> Eligible LEGO® robot kits and parts</h2>
 <table class="caption-top table" data-quarto-postprocess="true">
@@ -267,7 +269,7 @@ Open to all students, this is the only level that high school students can compe
 <td class="rule-id">DIV-01</td>
 </tr>
 <tr class="even">
-<td class="rule"><p>We expect teachers/mentors/classes to familiarize students with the concepts in the ILEO curriculum documents in the iLEO box folder. Admittedly the documents work better for older students due to the reading level and the amount of reading.</p>
+<td class="rule"><p>We expect teachers/mentors/classes to familiarize students with the concepts in the ILEO curriculum documents in the iLEO box folder. Admittedly giving the documents to young students won't work due to the reading level and the amount of reading intended for middle school and high school students.</p>
 <p>You have flexibility in how to present these materials, especially for younger students. Though typically classes work directly from the documents. We also do not expect you to finish the documents, but you should finish material that covers all sensors, or at least the sensors needed for the final project.</p></td>
 <td class="why"><p>The curriculum has the building blocks students will need in preparing their solutions to the final project, this year and beyond. We also hope to teach the students about engineering as a discipline and career.</p></td>
 <td class="rule-id">CURR-01</td>
@@ -275,8 +277,8 @@ Open to all students, this is the only level that high school students can compe
 </tbody>
 </table>
 </section>
-<section id="robot-behavior" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="robot-behavior"><span class="header-section-number">2.3</span> Robot Behavior</h2>
+<section id="robots" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="robots"><span class="header-section-number">2.3</span> Robots</h2>
 <table class="caption-top table" data-quarto-postprocess="true">
 <colgroup>
 <col style="width: 33%">
@@ -303,8 +305,8 @@ This makes projects easier to solve, so we want everyone to face the same challe
 <td class="rule-id">START-01</td>
 </tr>
 <tr class="odd">
-<td class="rule"><p>No one may interfere with the robots of the teams they are competing against.</p></td>
-<td class="why"><p>Fairness.</p></td>
+<td class="rule"><p>No person may interfere with the robots of the teams they are competing against. This includes families, guests, etc that are viewing the competition and have an interest in the results.</p></td>
+<td class="why"><p>Fairness. Action taken against the offending team will be up to the discretion of the judges.</p></td>
 <td class="rule-id">AUTO-02</td>
 </tr>
 <tr class="even">
@@ -313,14 +315,20 @@ This makes projects easier to solve, so we want everyone to face the same challe
 <td class="rule-id">AUTO-03</td>
 </tr>
 <tr class="odd">
-<td class="rule"><p>Typically, before a run starts, the robot must fit in the bounds of an 8 1/2 inch by 11 inch (US Letter) piece of paper. Some projects may specify different dimensions. The wires that connect motors and sensors may go beyond the boundaries as tying them down is difficult and may damage the wires. The wires must still fit in the bounds when you press/squish the wires inward toward the robot.</p>
-<p>Once the robot's program starts, the robot may unfold or transform by itself. The robot may then become larger than stated dimensions.</p></td>
+<td class="rule"><p>Typically, before a run starts, the robot must fit in the bounds of an 8 1/2 inch by 11 inch (US Letter) piece of paper when viewed from above. Some projects may specify different dimensions. The wires that connect motors and sensors may go beyond the boundaries as tying them down is difficult and may damage the wires. The wires must still fit in the bounds when you press/squish the wires inward toward the robot.</p>
+<p>Otherwise, the team must change the robot to fit. This time counts against the available time to perform scored runs with the robot.</p>
+<p>Once the robot's program starts, the robot may unfold or transform by itself. The robot may then become larger than stated dimensions (autonomously per <span class="rule-ref">AUTO-01</span>).</p></td>
 <td class="why"><!-- vale alex.Condescending["easy"] = NO -->
 <p>Some of our projects are too easy to solve with a large or wide robot. Unfolding adds a challenge in build in programming to be fair to students with other solutions.</p>
 <!-- vale alex.Condescending["easy"] = YES --></td>
 <td class="rule-id">SIZE-01</td>
 </tr>
 <tr class="even">
+<td class="rule"><p>Rules related to robot position ignore LEGO® parts not attached to the body of the robot (e.g. parts that fall off due to contact with anything on the arena or were loose to begin with).</p></td>
+<td class="why"><p>Sometimes the end position of a robot in a project is significant. Parts that were part of the robot, are no longer part of the robot.</p></td>
+<td class="rule-id"></td>
+</tr>
+<tr class="odd">
 <td class="rule"><p>If a project does not include a wall around the area (typically made of 2×4s ), the robot may leave the arena and return to it during a run. It should not go far beyond the surface more than a foot, or at the discretion of the judges. Its best to warn the judge and prepare the ground if you plan for your robot to drive around the arena.</p>
 <p>If a project has a wall, we do not want robots leaving the arena area enclosed, unless explicitly allowed by the project.</p>
 <p>The surface of the competition is generally like a gym floor, but it may be inconsistent when compared to our whiteboard arenas. The competition floor is likely different than the floor when you practice with. That could affect the behavior of your robot.</p>
@@ -350,7 +358,7 @@ This makes projects easier to solve, so we want everyone to face the same challe
 <tbody>
 <tr class="odd">
 <td class="rule aaron"><p>The arenas that we use at the final competition are not (for the most part) new. They often have faint pencil marks or other minor blemishes from previous competitions. The arena walls are not perfectly smooth (the lumber may contain knots).</p>
-<p>We do avoid using any arena which has blemishes that we deem it would interfere with the solution to the project. Students should be tolerant of slight blemishes on the surface like light pencil marks. Most robots have no problem tolerating these, but if your students have tolerances so tight that light pencil marks interfere with the functioning of the robot, we ask that you encourage them to loosen their tolerances.</p></td>
+<p>We do avoid using any arena which has blemishes that would interfere with the solution to the project. Students should be tolerant of slight blemishes on the surface like light pencil marks. Most robots have no problem tolerating these, but if your students have tolerances so tight that light pencil marks interfere with the functioning of the robot, we ask that you encourage them to loosen their tolerances.</p></td>
 <td class="why">We reuse materials for cost reasons (as we encourage schools to do). This is not to say the arenas at the competition are poor quality, just that they're not perfect/new. Its also important to not the arenas at the competition are not exactly the same as the onces you used in class.</td>
 <td class="rule-id"></td>
 </tr>
@@ -365,34 +373,16 @@ This makes projects easier to solve, so we want everyone to face the same challe
 <td class="rule-id">DMG-01</td>
 </tr>
 <tr class="even">
-<td class="rule"><p>TODO this whole section needs editing, might need to be broken up, or maybe in its own table.</p>
-<p>Many projects depend on the position of the robot, or items on the board being at a certain position for scoring. Cases include, but are not limited to:</p>
-<ul>
-<li>The robot or an item being "in" or "within" a certain area.</li>
-<li>The robot or item crosses/enters/leaves a boundary.</li>
-</ul>
-<p>in vs completely in Crossing a tape line or entering an area of an arena are based on looking from above the arena straight down.</p>
-<p>Crossing an obstacle means that the intelligent brick has moved entirely outside of the shaded area shown in the diagram above, after having crossed from one side to the other</p>
-<p>"Behind a tape line" or "crossing a tape line" means that the Intelligent brick of the robot is not on top of any part of the tape line, as viewed from above.</p>
-<p>For projects with specific scoring zones, the robot or item must be over the zone. If some part of puck is over the space of a scoring zone (excluding tape), judge award those points. If the puck is over multiple scoring zones, the points from lowest zone will be used.</p>
-<p>Some projects require a robot or some item the robot interacts with to be at a specific place or stop at a specific place by the end of a run. The judge will look straight down from above the arena and ensure the item or robot is over/inside/past the specified boundary.</p>
-<p>A robot stopping in a certain position depends on the position of the robot's Intelligent brick only, not the rest of the body of the robot.</p>
-<p>Projects where the robot body is considered legal for the stop rule is similar to the rule for the robot fitting within the bounds of a US Letter piece of paper at the beginning of a run for some projects. The "wire squishing" guidance also applies here.</p>
-<p>LEGO® parts not attached to the body of the robot are ignored for purposes of the position of the robot.</p></td>
-<td class="why"><p>Avoid ambiguity and disallow (or allow) certain clever solutions that would make it too easy to achieve the related rule or score.</p></td>
-<td class="rule-id">POS-01</td>
-</tr>
-<tr class="odd">
-<td class="rule"><p>What it means for an item (e.g. PVC peg, domino) to be considered "knocked over". This is easy if the peg is on its side, on the arena surface, or on the floor off of the arena surface. The item could catch on a wall, robot, or other materials in the arena. Imagine if the item the peg is in contact with disappeared, would the peg fall over on its own and make full contact with the arena floor? If this is not clear, a judge will make a ruling.</p></td>
+<td class="rule"><p>"Knocked over" in the context of an item like a PVC peg or domino might not be clear in certain situations. This is easy if the peg is on its side, on the arena surface, or on the floor off of the arena surface. The item could catch on a wall, robot, or other materials in the arena. Imagine if the item the peg is in contact with disappeared, would the peg fall over on its own and make full contact with the arena floor? If this is not clear, a judge will make a ruling.</p></td>
 <td class="why">This makes projects easier to solve, so we want everyone to face the same challenges and make the competition fair. We want to encourage creative builds and programming solutions.</td>
 <td class="rule-id"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td class="rule">Objects might still be moving after the team has declared a stop to their run. Judges will not score the run until the object either stop, or come to some state where the scoring is less ambiguous at the judge's discretion.</td>
 <td class="why">Judges typically won't be able to catch the state of all the scored objects at exactly the time the students stop the run. We don't have "instant replay". The judge also must pay attention to the trial time and stop the stopwatch. And the state of the objects upon stop is something that teams should consider in how their solution works.</td>
 <td class="rule-id"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td class="rule">Teams may not move items on the arena before they start a run. Once the robot starts, it may move anything on the arena not fastened down (and as not to cause damage as in DMG-01). Scoring rules in the project will tell you what you should or should not move.</td>
 <td class="why">May give teams an advantage. We want teams to be solving similar problems.</td>
 <td class="rule-id"></td>
@@ -427,25 +417,40 @@ This makes projects easier to solve, so we want everyone to face the same challe
 <td class="rule-id">PHOTO-01</td>
 </tr>
 <tr class="even">
+<td class="rule"><p>Sometimes students feel that their solution isn't good enough and they do not want to compete as a result. Students can get hung up on results or winning. Please discourage that and try to get them to compete. If that doesn't work, encourage the students to attend so they can at least see other student's solutions and see how the competition works. If they will not compete, please inform the core team as early as possible before the competition so we can adjust match plans. TODO I mention someplace winning isn't the important thing</p></td>
+<td class="why"><p>Attending the competition, even if not competition, can be instructive. Its hard to explain to the students what its all about, they need to experience it for themselves. We hope these students will return next year and be better prepared.</p></td>
+<td class="rule-id"></td>
+</tr>
+<tr class="odd">
 <td class="rule">If you are planning on bringing a practice arena to the final competition, do not transport the arena on a school bus. You may get a ticket for unsecured cargo. You may also have to make other hasty arrangements to get your materials legally to the venue.</td>
 <td class="why">This has actually happened to a school in the ILEO program.</td>
 <td class="rule-id">MAT-01</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td class="rule"><p>Participants in the Advanced final project will place their robots in the designated garage area. Please do this once you've located your seating area and have unpacked your robot.</p>
 <p>After competing, you may take your robot back to your table. You'll need it for the short-term round of the competition.</p></td>
 <td class="why">Some advanced arena layouts are not revealed until the final competition. We don't want teams to adjust their robot build or program once they've seen the final layout. Advanced students ready to complete when they arrive is our expectation.</td>
 <td class="rule-id"></td>
 </tr>
-<tr class="even">
-<td class="rule"><p>Please remember that we do not allow programming of robots during the long-term competition. We ask that students check light levels and make any necessary last-minute adjustments to their robot before the competition begins. The final version of their program is ready to go, loaded on the robot, preferably before even arriving at the venue.</p>
-<p>We require "laptops closed" at competition start. If a team is programming after competition begins, the team may present their solution to the judge as scheduled, but they may not place in the competition results.</p></td>
+<tr class="odd">
+<td class="rule"><p>Please remember that we do not allow programming of robots during the long-term competition. We expect the long-term projects to be complete when you arrive at the competition venue.</p>
+<p>We ask that students check light levels and make any necessary last-minute adjustments to their robot before the competition begins. The final version of their program is ready to go, loaded on the robot, preferably before even arriving at the venue.</p>
+<p>We require "laptops closed" at competition start. If a team is programming after competition begins, the team may present their solution to the judge as scheduled, but they may not place in the competition results.</p>
+<p>The exception to this is the short-term part of the competition, where students might need to change their long-term program, or write an alternative program and compete again.</p></td>
 <td class="why">Participants that compete later would have an unfair time advantage to complete or tweak their work.</td>
+<td class="rule-id">DONE-01</td>
+</tr>
+<tr class="even">
+<td class="rule"><p>IBM will supply a small number of "practice" arenas at the final competition. These arenas primarily allow students to verify their robot can sense tape with the light levels available in the competition venue. They are not guaranteed to have the correct layout as the competition arenas.</p>
+<p>To improve accessibility we sometimes allow students to test using the competition arenas. The project description will describe this. TODO Is that a new convention we want to follow?</p>
+<p>Whether testing on a competition arena or a practice arena, we encourage students to be courteous and share with other teams. There are a lot of teams that need to verify that their robots work under the conditions at the venue. Do not expect to be able to perform an entire run of your project solution on a practice or competition arena.</p></td>
+<td class="why"><p>As mentioned in <span class="rule-ref">DONE-01</span>, we expect student solutions finalized before arriving at the venue. Students should only need to verify that the light settings in their program will function under the conditions at the venue.</p></td>
 <td class="rule-id"></td>
 </tr>
 <tr class="odd">
-<td class="rule aaron">Note a rule, but a best practice/reminder. Have your students make sure that their robots are fully charged on the day of the competition. Also have them make sure that they have the final version of their program loaded on the robot.</td>
-<td class="why">Would be unfortunate if a team could not compete to its potential due to lack.</td>
+<td class="rule aaron">Not a rule, but a best practice/reminder. Have your students make sure that their robots are fully charged on the day of the competition. Also have them make sure that they have the final version of their program loaded on the robot.</td>
+<td class="why"><p>Would be unfortunate if a team could not compete to its potential due to a lack of battery power or a missing or incorrect program.</p>
+<p>Almost every year we have at least one team that does not have the correct program loaded on their robot when they compete, resulting in a worse than expected performance.</p></td>
 <td class="rule-id"></td>
 </tr>
 <tr class="even">
@@ -459,21 +464,34 @@ This makes projects easier to solve, so we want everyone to face the same challe
 <td class="rule-id"></td>
 </tr>
 <tr class="even">
-<td class="rule"><p>We ask that you be respectful of the RCTC staff and keep the gymnasium as clean as possible. Encourage your students to be courteous. We are going to have a large number of students in the Field House, and we want to keep this a positive experience for everybody.</p>
+<td class="rule"><p>We ask that you be respectful of the staff and keep the venue as clean as possible. Encourage your students to be courteous. We are going to have a large number of students in the Field House, and we want to keep this a positive experience for everybody.</p>
 <p>Relatives/guests are welcome to attend and observe the competition, we only ask that they give room to the competing teams and to judges when spectating. A fence separates the competition area from the rest of the venue. We ask that only competing teams (or teams that are about to compete) and their coaches be in the competition area. Relatives may come into the competition area to take photographs, but we ask that they maintain a respectful distance so as not to interfere with the competition.</p></td>
 <td class="why">Ensure a good experience for all attending the competition.</td>
 <td class="rule-id"></td>
 </tr>
 <tr class="odd">
 <td class="rule"><p>Students and mentors must understand the full rules of a project and this document. Reach out to the ILEO core team is anything is unclear well before the competition to answer any questions, or for a ruling in case other schools/teams have the same questions. Judges and the ILEO core team have the ultimate say in interpreting the rules or handling unexpected situations at the competition.</p></td>
-<td class="why"><p>We try to make rules as clear and unambiguous as we can. But sometime language might fail us might be inadvertently confusing. If there is any confusion, and you interpret things differently in class, we cannot honor such interpretations at the competition to ensure a level playing field.</p>
-<p>We also want students to be responsible for read and understand the rules so their solutions conform. Students should ask for mentor help as needed. Mentors should reach out to the core team as needed.</p></td>
+<td class="why"><p>We expect students to read and understand the rules of the project and the final competition. Students should ask a mentor for help if anything is unclear. Mentors should reach out to the ILEO core team if anything is unclear to them. We also expect mentors to inform students if they are breaking a rule while practicing in class.</p>
+<p>We try to make rules as clear and unambiguous as we can. Unfortunately, we don't always catch every possible corner case or potential point of confusion. If you feel that you have to interpret a rule, or if you believe you have discovered an unintended "loophole", please contact the ILEO core team to verify your interpretation as soon as possible. If you fail to do so, the ruling of the judge or core team could disappoint your team. We want to avoid such situations for the students.</p>
+<p>Sometimes we want you to read between the lines and use that leeway to invent clever solutions. TODO discuss unintended vs intended loopholes</p></td>
 <td class="rule-id"></td>
 </tr>
 <tr class="even">
+<td class="rule"><p>Not a rule, but a best practice. Mentors, consider having a mock competition in one of the regular sessions just before the final competition. Mentors will judge the students as though they are competing in the final competition, and can use that opportunity to point out any mistakes the students have made or things they might have forgotten about competing at the final competition. We have found that students often get focused on their solution to the project and can forget rules that they read weeks ago when they started working on the project.</p>
+<p>We also recommend practicing for short term using a timed, 45-minute project . This should make them understand how short 45 minutes really is, help them understand the pressure, and help them identify any teamwork issues in such a situation.</p>
+<p>Mentors, you might even ask students that have participated in the past to share their experience with the rest of the class.</p></td>
+<td class="why"><p>Help students prepare for the event.</p></td>
+<td class="rule-id"></td>
+</tr>
+<tr class="odd">
 <td class="rule"><p>IBMers: Please consider wearing an IBM shirt at the final competition.</p>
 <p>Mentors/teachers consider the same for any other organizations that support your program.</p></td>
 <td class="why">Show your company pride! Networking. Good for photos.</td>
+<td class="rule-id"></td>
+</tr>
+<tr class="even">
+<td class="rule"><p>The venue has limited wifi access. Its not guaranteed to work with the number of devices at the competition. Groups that use the web-based programming app (SPIKE™ Prime) should consider brining their own reliable wifi hotspot, or switch to an installed app. This will depend on the school/organization information technology policies, and on the devices available to the students.</p></td>
+<td class="why"></td>
 <td class="rule-id"></td>
 </tr>
 </tbody>
@@ -496,41 +514,70 @@ This makes projects easier to solve, so we want everyone to face the same challe
 </thead>
 <tbody>
 <tr class="odd">
-<td class="rule">Judges have final say and the recorded scores and times.</td>
-<td class="why">Due to the number of students at the competition and the number of tasks the judges and core team are performing, we don't have the time to resolve student objects. We do trust our judges to be fair and make a few mistakes as possible.</td>
-<td class="rule-id"></td>
-</tr>
-<tr class="even">
-<td class="rule"><p>Students must bring their team name slip from the packet distributed on check-in to the competition. Mentors must pass these out and remind students to bring them.</p></td>
-<td class="why"><p>This slip tells students what time and arena they compete. It helps judges ensure the scoring is correct.</p></td>
-<td class="rule-id"></td>
-</tr>
-<tr class="odd">
-<td class="rule"><p>Certain projects (typically short-term) the judge will give the team a slip that indicates the students will compete.</p></td>
+<td class="rule"><p>Ways a run (i.e. your robot's attempt to solve the project problem)can end:</p>
+<ol>
+<li>An end condition defined in the project description.</li>
+<li>"immediately" due to a rules violation.</li>
+<li>"disqualified" due to a rules violation.</li>
+</ol>
+<p>For 1 or 2 the judge records the score for the run. For a disqualified run, the score for the run is not recorded. If a team has no scored runs (i.e. all disqualified), their final score recorded is the worst possible score (e.g. zero) and worst tiebreaker value (e.g. time).</p></td>
 <td class="why"></td>
 <td class="rule-id"></td>
 </tr>
 <tr class="even">
-<td class="rule"><p>Judges would appreciate student help in resetting arenas for the next run. Students must wait for permission from the judge first. Follow the project rules while resetting the arena. The judge may hold the next run until a judge or student corrects the issue.</p></td>
-<td class="why"><!-- vale write-good.Weasel["fairly"] = NO -->
-<p>This speeds up the reset time, possibly giving students more time to perform their runs. But we want the reset performed fairly. Also, the judge needs a few moments to correctly score the run before the arena is reset and the next run can start.</p>
-<!-- vale write-good.Weasel["fairly"] = YES --></td>
+<td class="rule"><p>Judges have final say on the recorded scores and times.</p>
+<p>We encourage teams to verify the score recorded by the judge matches expectations, and you are free to point out any missed points that you feel you are due . We all make mistakes, and the judge might overlook something, made a mistake in counting or was briefly distracted by other parts of you run. If the judge disagrees, their word is final. Any further discussion will just eat into your competition time, and we must cut the discussion short when your time slot is over.</p></td>
+<td class="why">Due to the number of students at the competition and the number of tasks the judges and core team are performing, we don't have the time to fully resolve all objections. We do trust our judges to be fair and make a few mistakes as possible.</td>
 <td class="rule-id"></td>
 </tr>
 <tr class="odd">
+<td class="rule"><p>Students must bring their team name slip from the packet distributed on check-in to the competition. Mentors must pass these out and remind students to bring them.</p></td>
+<td class="why"><p>For certain projects (typically short-term brackets) the judge will give the team a match results slip that indicates where and when the students will compete next.</p></td>
+<td class="rule-id"></td>
+</tr>
+<tr class="even">
+<td class="rule"><p>Certain projects (typically short-term) the judge will give the team a slip that indicates the students will compete.</p></td>
+<td class="why"></td>
+<td class="rule-id"></td>
+</tr>
+<tr class="odd">
+<td class="rule"><p>Judges would appreciate student help in resetting arenas for the next run, and collecting items that leave the arena space (e.g. collecting ping pong balls that rolled or bouned out) Students must wait for permission from the judge first. Follow the project rules while resetting the arena. The judge may hold the next run until a judge or student correct any issues.</p></td>
+<td class="why"><!-- vale write-good.Weasel["fairly"] = NO -->
+<p>This speeds up the reset time, possibly giving students more time to perform their runs. We must also ensure the reset is correct for the project rules. Also, the judge needs a few moments to correctly score the run before the arena is reset and the next run can start.</p>
+<!-- vale write-good.Weasel["fairly"] = YES --></td>
+<td class="rule-id"></td>
+</tr>
+<tr class="even">
 <td class="rule"><p>During a run, a robot might malfunction or parts may otherwise disconnect. After judges score the run, but before the next run begins, students may reassemble the robot. Time will continue running for timed projects. For non-timed projects, we expect reassembly in a timely manner.</p></td>
 <td class="why"><p>Teams can't be successful on the next run with a broken robot, but we need to balance the time involved to keep the competition as a whole moving.</p></td>
 <td class="rule-id"></td>
 </tr>
+<tr class="odd">
+<td class="rule"><p>Rules related to interaction/removal of arena obstacles ignore LEGO® parts not attached to the body of the robot (e.g. parts that fall off due to contact with anything on the arena or were loose to begin with). These parts become obstacles your robot might encounter and must deal with. In a project where you score points for removing items from the arena, you will not get points for clearing those LEGO parts. Only the materials described in the project count for scoring.</p></td>
+<td class="why"><p>Sometimes the end position of a robot in a project is significant. Parts that were part of the robot, are no longer part of the robot.</p></td>
+<td class="rule-id"></td>
+</tr>
 <tr class="even">
-<td class="rule"><p>Do not bring Laptops, tablets or other programming devices to the competition arenas. I.e. students may not change their programs while competing.</p></td>
+<td class="rule"><p>Do not bring Laptops, tablets, phones, or other programming devices to the competition arenas, or keep them closed, in a bag or in your pocket. Students may not change their programs while competing.</p>
+<p>Teams competing may use a device to take photos, but must present it to a judge to confirm the device is not in robot programming mode (e.g. bluetooth off, no other apps running)</p>
+<p>TODO revisit this as a group</p></td>
 <td class="why"><p>Students may encounter things they didn't expect. The time it takes to change the program, and test the robot will likely take too much time.</p>
-<p>For certain projects, knowledge of the arena layout at the project could give student and advantage (typically for the Advanced division).</p></td>
+<p>For certain projects, knowledge of the arena layout at the project could give student and advantage (typically for the Advanced division).</p>
+<p>Remote controlling robots is possible using wireless connections. Minimizing the possibility that the robot is being remotely controlled helps judges as they are busy with scoring and catching this is difficult.</p>
+<p>A team once brought their tablet to the arena and the judge observed them interacting with the tablet right before the robot stopped. The team did stop the program via the tablet, which stopped the robot. In their defense, this rule was less clear at the time.</p>
+<p>Someone standing outside (possibly far outsize) the competition area could wirelessly control the robot. This is also forbidden, since it breaks the autonomy rule, <span class="rule-ref">AUTO-01</span>.</p></td>
 <td class="rule-id"></td>
 </tr>
 <tr class="odd">
-<td class="rule"><p>Judges can provide students information on their final score, but only the scoring official has the complete results.The judges and ILEO core team do not provide complete competition results to teams upon completion of the competition, other than the top final rankings in each division.</p></td>
-<td class="why"><p>We don't have the resources to provide scoring or ranking details to the teams. What the students learn and their experience is more important than their final ranking.</p></td>
+<td class="rule"><p>Judges can provide students information on their final score, but only the scoring official has complete results on the day of the competition. ILEO does not make the full list of results publicly available. After the competition schools may request placement information for their teams.</p>
+<p>The ILEO core team can only provide placement information for non-bracket challenges. If a team participated in a bracket challenge they can get an idea of how well they did by the number of rounds they were able to progress in the bracket at the event.</p></td>
+<td class="why"><p>Although we want to recognize teams which performed well at the competition, we do not want to discourage teams that did not. The latter is why we do not distribute the full rankings.</p>
+<p>We collect bracket-based scores live at the event. We do not log full bracket details like other project in the interest of time and to allow the scoring official to perform other duties.</p></td>
+<td class="rule-id"></td>
+</tr>
+<tr class="even">
+<td class="rule">A judge's coin flip will resolve any scoring ties not resolved by tiebreaker(s) described in the project rules. The core team will have coins available at the scoring official area.</td>
+<td class="why">We need something fair and quick to resolve the situation and keep the competition moving.</td>
 <td class="rule-id"></td>
 </tr>
 </tbody>
