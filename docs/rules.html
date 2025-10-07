@@ -214,8 +214,8 @@ in-class, working on final projects, getting to the competition, competing -->
 <td class="rule-id">KIT-01</td>
 </tr>
 <tr class="even">
-<td class="rule"><p>Only parts with a LEGO Group part number designed to connect to standard LEGO bricks or LEGO TECHNIC™ parts (including the wire and battery cover) No bins, lids, manuals, manuals are valid for use. <!-- vale alex.Condescending["easily"] = YES --></p>
-<p>Said another way, components in the box which are not LEGO pieces (such as the instruction booklet, the part trays, sticker sheet and packaging) are NOT allowed as part of the team's solution. The intelligent brick, sensors, and wires ARE LEGO parts. If there is any question contact the core team ASAP. You may ask a judge at the competition, but that might be too late to correct any issue.</p></td>
+<td class="rule"><p>Only parts with a LEGO Group part number designed to connect to standard LEGO bricks or LEGO TECHNIC™ parts (including the wire and battery cover) are valid for use. Parts not meant to connect to the robot (bins, lids, sticker sheets, and manuals), are NOT valid for use. <!-- vale alex.Condescending["easily"] = YES --></p>
+<p>Said another way, components in the box which are not LEGO pieces are NOT allowed as part of the team's solution. The intelligent brick, sensors, and wires ARE LEGO parts. If there is any question contact the core team ASAP. You may ask a judge at the competition, but that might be too late to correct any issue.</p></td>
 <td class="why">Creative uses of these parts may be an advantage, disruptive to the competition, or damaging to reusable things in the kit.</td>
 <td class="rule-id">PARTS-01</td>
 </tr>
@@ -250,7 +250,8 @@ in-class, working on final projects, getting to the competition, competing -->
 <dl>
 <dt>Beginner</dt>
 <dd>
-Open to elementary and middle school students. We strongly encourage students who have participated in the program in the past move from beginner to standard.
+<p>Open to elementary and middle school students. We strongly encourage students who have participated in the program in the past move from beginner to standard.</p>
+<p>This is not a strict rule. Use your best judgement, and (if possible) consult with a teacher who knows the students well. In some cases younger students or students with limited experience with engineering concepts may be better served by a second year in the beginner division.</p>
 </dd>
 <dt>Standard</dt>
 <dd>
@@ -258,10 +259,10 @@ Open to elementary and middle school students.
 </dd>
 <dt>Advanced</dt>
 <dd>
-Open to all students, this is the only level that high school students can compete at.
+Primarily for high school students. High school students may not join beginner nor standard. Open to other students based on ability.
 <ul>
 <li>Advanced is hard. If your students have not been in the ILEO program before, we do not recommend placing them in the Advanced division unless they are familiar with the LEGO® MINDSTORMS® platform and have solid problem-solving skills.</li>
-<li>If you are not sure, but the students really want to try, have them do the Advanced weekly projects. If they do well there, they will likely be OK with the long-term projects.</li>
+<li>If you are not sure, but the students really want to try, have them do the Advanced challenge projects that lead up to the final project. If they do well there, they will likely be OK with the long-term projects.</li>
 </ul>
 </dd>
 </dl></td>
@@ -294,14 +295,20 @@ Open to all students, this is the only level that high school students can compe
 </thead>
 <tbody>
 <tr class="odd">
-<td class="rule aaaron"><p>All robots/programs must run autonomously. That is, once you start the program, the robot must complete the task on its own without any human intervention. Touching the robot typically stops the run. Certain kinds of interference or project rules might disqualify the run.</p></td>
-<td class="why"><p>For example, you may not maintain a Bluetooth or other connection (long stick) to the robot to communicate with it or</p>
-This makes projects easier to solve, so we want everyone to face the same challenges and make the competition fair. We want to encourage creative builds and programming solutions.</td>
+<td class="rule aaaron"><p>All robots/programs must run autonomously. That is, once you start the program, the robot must complete the task on its own without any human intervention. Touching the robot after the program has started ends the run. Certain kinds of interference or project rules might disqualify the run.</p>
+<p>For example, you may not maintain a Bluetooth or other connection (long stick) to communicate or influence the robot.</p>
+<p>Similarly, attempting to guide the robot through human interaction with a sensor such as the ultrasonic sensor, the light sensor, or the sound sensor after the program has started is not allowed. An example of this behavior would be waving your hand over an upward pointing ultrasonic sensor to cause the robot to turn left.</p></td>
+<td class="why"><p><!-- vale alex.Condescending["easy"] = NO --> Such interaction makes the project too easy to solve. We want everyone to face the same challenges and make the competition fair. We want to encourage creative builds and programming solutions.</p>
+<!-- vale alex.Condescending["easy"] = YES --></td>
 <td class="rule-id">AUTO-01</td>
 </tr>
 <tr class="even">
-<td class="rule">Start your program on the robot using buttons or sensors on the robot.</td>
-<td class="why">Related to the previous rule about autonomous robots. Also, we're uncertain about interference that many Bluetooth connections might cause. It also makes it clearer to the judge when to start timing your run.</td>
+<td class="rule"><p>Start your program on the robot using buttons or sensors on the robot. At the competition, we (Do NOT have them use the sound sensor for this purpose due to the background noise level at the competition. )</p>
+<p>Any run started through other means, the judge will disqualify the run.</p>
+<p>Mentors, ensure your students are aware of this and ensure they practice the technique before the final competition.</p></td>
+<td class="why"><p>Related to rule <span class="rule-ref">AUTO-01</span> about autonomous robots. Also, we're uncertain about interference that many Bluetooth connections might cause. It also makes it clearer to the judge when to start timing your run.</p>
+<p>Students in class likely download the program to the robot and start the program with a single button click in the current LEGO software. Students get used to this convenient interaction in class (especially with the Bluetooth connections). <!-- vale write-good.TooWordy["previously"] = NO --> As such, they might not know how to start a previously downloaded program using controls on the Intelligent brick (the ILEO curriculum does cover this).</p>
+<!-- vale write-good.TooWordy["previously"] = YES --></td>
 <td class="rule-id">START-01</td>
 </tr>
 <tr class="odd">
@@ -310,14 +317,15 @@ This makes projects easier to solve, so we want everyone to face the same challe
 <td class="rule-id">AUTO-02</td>
 </tr>
 <tr class="even">
-<td class="rule"><p>If a robot interferes with a robot in another arena by accident in the longer term competition, the just may give the affected team(s) another run. For short term, this depends on the specific project: two robots to be operating near each other is more common in short term..</p></td>
-<td class="why"><p>To save floor space and materials, we generally place 2 arenas together. One 4 foot by 8 foot area typically hosts two teams doing judged runs at the same time. We generally design projects to its unlikely either run will interfere with the other. But robot designs, or a malfunctioning robot that can reach over the 2×4 walls could interfere.</p></td>
+<td class="rule"><p>If a robot interferes with a robot in another arena by accident in the long=term competition, the judge may give the affected team(s) another run. For short-term, this depends on the specific project: two robots operating near each other is more common.</p></td>
+<td class="why"><p>To save floor space and materials, we generally place 2 arenas together. One 4 foot by 8 foot arena typically hosts two teams doing judged runs at the same time. We try to design projects to prevent/reduce interference between robots. But robot designs, or a malfunctioning robot that can reach over the 2×4 walls could interfere.</p></td>
 <td class="rule-id">AUTO-03</td>
 </tr>
 <tr class="odd">
-<td class="rule"><p>Typically, before a run starts, the robot must fit in the bounds of an 8 1/2 inch by 11 inch (US Letter) piece of paper when viewed from above. Some projects may specify different dimensions. The wires that connect motors and sensors may go beyond the boundaries as tying them down is difficult and may damage the wires. The wires must still fit in the bounds when you press/squish the wires inward toward the robot.</p>
-<p>Otherwise, the team must change the robot to fit. This time counts against the available time to perform scored runs with the robot.</p>
-<p>Once the robot's program starts, the robot may unfold or transform by itself. The robot may then become larger than stated dimensions (autonomously per <span class="rule-ref">AUTO-01</span>).</p></td>
+<td class="rule"><p>Before a run starts, the robot must fit in the bounds of an 8 1/2 inch by 11 inch (US Letter) piece of paper when viewed from above. The wires that connect motors and sensors may go beyond the boundaries as tying them down is difficult and may damage the wires. The wires must still fit in the bounds when you gently press/squish the wires inward toward the robot.</p>
+<p>Consult the project writeup as it specify different dimensions, or remove this rule.</p>
+<p>If the robot does not fit at the competition, the team must change the robot to fit to attempt a run. This time counts against the available time to perform scored runs with the robot. But really the team must size the robot correctly before arriving at the competition.</p>
+<p>Once the robot's program starts, the robot may unfold or transform by itself. The robot may then become larger than the stated dimensions (autonomously per <span class="rule-ref">AUTO-01</span>).</p></td>
 <td class="why"><!-- vale alex.Condescending["easy"] = NO -->
 <p>Some of our projects are too easy to solve with a large or wide robot. Unfolding adds a challenge in build in programming to be fair to students with other solutions.</p>
 <!-- vale alex.Condescending["easy"] = YES --></td>
@@ -329,12 +337,14 @@ This makes projects easier to solve, so we want everyone to face the same challe
 <td class="rule-id"></td>
 </tr>
 <tr class="odd">
-<td class="rule"><p>If a project does not include a wall around the area (typically made of 2×4s ), the robot may leave the arena and return to it during a run. It should not go more than about one foot from the arena. Judges determine if your robot has moved too far from the arena. Its best to warn the judge and prepare the ground if you plan for your robot to drive around the arena.</p>
-<p>If a project has a wall, we do not want robots leaving the arena area enclosed, unless explicitly allowed by the project.</p>
-<p>The surface of the competition is generally like a gym floor, but it may be inconsistent when compared to our whiteboard arenas. The competition floor is likely different than the floor when you practice with. That could affect the behavior of your robot.</p>
+<td class="rule"><p>If a project does not include a wall around the arena (typically made of 2×4s ), the robot may leave the arena and return to it during a run. It should not go more than about one foot from the arena.</p>
+<p>Judges determine if your robot has moved too far from the arena and may disqualify the run. If your solution does this, warn the judge as you arrive at your arena (before you attempt any runs) so they can prepare the ground, ask people to move, etc.</p>
+<p>If a project has a wall, we do not want robots leaving the arena area enclosed, unless explicitly allowed by the project. No part of the robot may extend or move more than 1/2 inch over the top of the wall when viewed from above</p>
+<p>If the robot violates this rule the run will end immediately.</p></td>
+<td class="why"><p>At times during the competition there may be people, judges or other materials around the arena. We'd like to allow creative solutions that leave the arena, but we need to limit chaos and interference that results. A robot out of control or purposely driving away might look the same to a judge.</p>
+<p>At the competition, we try to conserve materials and floor space. When a project has walls, another arena surface and another team might compete on the other side. We do not want teams competing near each other, or observers, to interfere with the teams' runs.</p>
+<p>The surface of the competition is generally like a gym floor, but it might be inconsistent when compared to our whiteboard arenas. The competition floor is likely different than the floor you practice with. That could affect the behavior of your robot.</p>
 <p>Also, our arena surfaces typically have a 1/8 inch drop to the floor. Students should be familiar with that, assuming the class uses our standard arena materials. Your robot will need to traverse that. This could be a problem for robots with a "plow" that scrapes the surface or otherwise has low-hanging parts.</p></td>
-<td class="why"><p>At times during the competition there may be people, judges or other materials around the arena. We'd like to allow creative solutions that leave the arena, but we need to limit chaos and interference that results from the robots driving around. Its also hard to tell if a robot is out of control or purposely driving away.</p>
-<p>When a project has walls, typically at the competition there will be another arena surface an team competing. We do not want teams competing near each other to interfere with each other.</p></td>
 <td class="rule-id">AUTO-04</td>
 </tr>
 </tbody>
@@ -359,32 +369,45 @@ This makes projects easier to solve, so we want everyone to face the same challe
 <tr class="odd">
 <td class="rule aaron"><p>The arenas that we use at the final competition are not (for the most part) new. They often have faint pencil marks or other minor blemishes from previous competitions. The arena walls are not perfectly smooth (the lumber may contain knots).</p>
 <p>We do avoid using any arena which has blemishes that would interfere with the solution to the project. Students should be tolerant of slight blemishes on the surface like light pencil marks. Most robots have no problem tolerating these, but if your students have tolerances so tight that light pencil marks interfere with the functioning of the robot, we ask that you encourage them to loosen their tolerances.</p></td>
-<td class="why">We reuse materials for cost reasons (as we encourage schools to do). This is not to say the arenas at the competition are poor quality, just that they're not perfect/new. Its also important to not the arenas at the competition are not exactly the same as the onces you used in class.</td>
+<td class="why">We reuse materials for cost reasons (as we encourage schools to do). This is not to say the arenas at the competition are poor quality, just that they're not perfect/new. Note that the arenas at the competition are not exactly the same as the ones you used in class.</td>
 <td class="rule-id"></td>
 </tr>
 <tr class="even">
-<td class="rule"><p>No one may not touch arena materials during a run.</p></td>
+<td class="rule"><p>No one may not touch arena materials during a run.</p>
+<p>No one may interfere with the arena or arena materials during a run. Examples of interference include (but are not limited to):</p>
+<ul>
+<li>Blowing on a ping-pong ball to change its trajectory</li>
+<li>Using a stick made of LEGO® parts to knock over a peg</li>
+<li>Kicking the arena to cause pegs to fall over or ping-pong balls to move</li>
+</ul>
+<p>Any such interaction will typically disqualify the run immediately.</p></td>
 <td class="why"><p>Stopping a ball from rolling, removing an item could make the robot's job easier, or give an unfair scoring advantage to a team.</p></td>
 <td class="rule-id"></td>
 </tr>
 <tr class="odd">
-<td class="rule">Participants may not damage project materials or arenas on purpose. Do not build or code robots to damage materials.</td>
+<td class="rule"><p>Participants may not damage project materials or arenas on purpose. Do not build or code robots to damage materials.If the judge determines that the robot has damaged a material on purpose the run will be immediately disqualified.</p>
+<p>An example of disallowed behavior would be programming a robot to crush a ping-pong ball to prevent it from rolling or to make it fit into a smaller space.</p></td>
 <td class="why">We need to reuse parts for all teams, and not interrupt the competition flow and finish on time.</td>
 <td class="rule-id">DMG-01</td>
 </tr>
 <tr class="even">
-<td class="rule"><p>"Knocked over" in the context of an item like a PVC peg or domino might not be clear in certain situations. This is easy if the peg is on its side, on the arena surface, or on the floor off of the arena surface. The item could catch on a wall, robot, or other materials in the arena. Imagine if the item the peg is in contact with disappeared, would the peg fall over on its own and make full contact with the arena floor? If this is not clear, a judge will make a ruling.</p></td>
+<td class="rule"><p>"Knocked over" in the context of an item like a PVC peg or domino might not be clear in certain situations. This is easy if the peg is on its side, on the arena surface, or on the floor off of the arena surface. The item could catch on a wall, robot, or other materials in the arena.</p>
+<p>An object (e.g. PVC peg or domino) is "knocked over" if the item is resting horizontally on a surface, or if the judge determines that the item would come to rest horizontally on a surface if all other objects (including the robot, obstacles, and walls) were not present. For example, a PVC peg leaning on the robot at the end of a run is "knocked over".</p></td>
 <td class="why">This makes projects easier to solve, so we want everyone to face the same challenges and make the competition fair. We want to encourage creative builds and programming solutions.</td>
 <td class="rule-id"></td>
 </tr>
 <tr class="odd">
-<td class="rule">Objects might still be moving after the team has declared a stop to their run. Judges will not score the run until the object either stop, or come to some state where the scoring is less ambiguous at the judge's discretion.</td>
-<td class="why">Judges typically won't be able to catch the state of all the scored objects at exactly the time the students stop the run. We don't have "instant replay". The judge also must pay attention to the trial time and stop the stopwatch. And the state of the objects upon stop is something that teams should consider in how their solution works.</td>
+<td class="rule">Objects might still be moving after the team has declared a stop to their run. Judges will not score the run until the objects either stop, or come to some state where the scoring is less ambiguous, at the judge's discretion.</td>
+<td class="why"><p>Judges might not be able to catch the state of all the scored objects at exactly the time the students stop the run. We don't have "instant replay". The judge also must pay attention to the trial time and stop the stopwatch.</p>
+<p><!-- vale alex.Condescending["easily"] = NO --> Students, consider the state of objects at the end of a run when creating your strategy. For example, ping-pong balls with too much momentum can easily leave a scoring area before coming to rest.</p>
+<!-- vale alex.Condescending["easily"] = YES --></td>
 <td class="rule-id"></td>
 </tr>
 <tr class="even">
-<td class="rule">Teams may not move items on the arena before they start a run. Once the robot starts, it may move anything on the arena not fastened down (and as not to cause damage as in DMG-01). Scoring rules in the project will tell you what you should or should not move.</td>
-<td class="why">May give teams an advantage. We want teams to be solving similar problems.</td>
+<td class="rule"><p>Locations of objects on the arena are specifically chosen/assigned by the ILEO core team. Some projects under-specify the location to give us more options at the competition or to make the project more challenging. Judges will know and enforce the positions of the objects.</p>
+<p>No person may move items on the arena from the assigned position before the team starts their run. Once the robot starts, it may move anything on the arena not fastened down (and as not to cause damage as in DMG-01). Scoring rules in the project will tell you what you should or should not move.</p>
+<p>Some projects may allow students to pick the starting position for the robot. If your chosen/ideal starting position overlaps with an object, you must choose another starting position. You may not move objects to make room for the robot. If you moved any objects before placing your robot the judge will return the objects to their original positions.</p></td>
+<td class="why">Might give teams an advantage. We want teams to be solving similar problems.</td>
 <td class="rule-id"></td>
 </tr>
 </tbody>
@@ -427,14 +450,16 @@ This makes projects easier to solve, so we want everyone to face the same challe
 <td class="rule-id">MAT-01</td>
 </tr>
 <tr class="even">
-<td class="rule"><p>Participants in the Advanced final project will place their robots in the designated garage area. Please do this once you've located your seating area and have unpacked your robot.</p>
+<td class="rule"><p>Participants in the Advanced final project must place their robots in the designated garage area. Please do this once you've located your seating area and have unpacked your robot. Your robot must be in the garage when judging starts.</p>
 <p>After competing, you may take your robot back to your table. You'll need it for the short-term round of the competition.</p></td>
-<td class="why">Some advanced arena layouts are not revealed until the final competition. We don't want teams to adjust their robot build or program once they've seen the final layout. Advanced students ready to complete when they arrive is our expectation.</td>
+<td class="why"><p>Some advanced arena layouts are not revealed until the final competition. We don't want teams to adjust their robot build or program once they've seen the final layout.</p>
+<p><!-- value alex.ProfanityUnlikely["color"] = OFF --> We expect Advanced students to be ready to compete when they arrive. At most they should need to check light levels if they are making use of a light or color sensor: you must complete this before the start of judging.</p>
+<!-- value alex.ProfanityUnlikely["color"] = ON --></td>
 <td class="rule-id"></td>
 </tr>
 <tr class="odd">
 <td class="rule"><p>Please remember that we do not allow programming of robots during the long-term competition. We expect the long-term projects to be complete when you arrive at the competition venue.</p>
-<p>We ask that students check light levels and make any necessary last-minute adjustments to their robot before the competition begins. The final version of their program is ready to go, loaded on the robot, preferably before even arriving at the venue.</p>
+<p>We ask that students check light levels and make any necessary last-minute adjustments to their robot before the competition begins. The final version of their program is ready to go on the robot, preferably before arriving at the venue.</p>
 <p>We require "laptops closed" at competition start. If a team is programming after competition begins, the team may present their solution to the judge as scheduled, but they may not place in the competition results.</p>
 <p>The exception to this is the short-term part of the competition, where students might need to change their long-term program, or write an alternative program and compete again.</p></td>
 <td class="why">Participants that compete later would have an unfair time advantage to complete or tweak their work.</td>
