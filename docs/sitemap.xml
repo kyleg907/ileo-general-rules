@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ibm.ent.box.com/ILEO-Project/index.html</loc>
-    <lastmod>2025-10-09T22:38:52.606Z</lastmod>
+    <lastmod>2025-10-10T03:40:07.455Z</lastmod>
   </url>
   <url>
     <loc>https://ibm.ent.box.com/ILEO-Project/rules.html</loc>
-    <lastmod>2025-10-10T01:55:17.474Z</lastmod>
+    <lastmod>2025-10-10T03:54:16.063Z</lastmod>
   </url>
   <url>
     <loc>https://ibm.ent.box.com/ILEO-Project/terms.html</loc>
@@ -15,5 +15,13 @@
   <url>
     <loc>https://ibm.ent.box.com/ILEO-Project/legal.html</loc>
     <lastmod>2025-10-09T21:16:37.167Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ibm.ent.box.com/ILEO-Project/ILEO-General-Competition-Rules.pdf</loc>
+    <lastmod>2025-10-10T04:30:03.725Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ibm.ent.box.com/ILEO-Project/ILEO-General-Competition-Rules.docx</loc>
+    <lastmod>2025-10-10T04:30:05.154Z</lastmod>
   </url>
 </urlset>

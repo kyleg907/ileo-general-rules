@@ -1,3 +1,15 @@
+@media print {
+    body {
+        font-size: 70% !important;
+        max-width: 7.75in !important;
+
+    }
+
+    main, content {
+        color: green !important;
+    }
+}
+
 /* Currently assumes we only have tables for rules */
 /* PDF output does not honor this... */
 td {
