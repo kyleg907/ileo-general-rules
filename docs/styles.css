@@ -20,8 +20,17 @@
   @page {
     size: Letter;
     margin: 0.3in;
-    margin-bottom: 0.5in;
+    margin-bottom: 0.75in;
+  }
 
+  @page: left {
+    @bottom-left {
+      content: "Page " counter(page) " of " counter(pages);
+      font-size: 0.7em;
+    }
+  }
+
+  @page: right {
     @bottom-right {
       content: "Page " counter(page) " of " counter(pages);
       font-size: 0.7em;
@@ -33,11 +42,6 @@
 /* PDF output does not honor this... */
 td {
   border: 1px solid !important;
-}
-
-td.aaron *:first-child::before,
-table.aaron::before {
-  content: "📜(aaron)📜";
 }
 
 /*td.rule,*/
